@@ -1,4 +1,4 @@
-import naoelixoImg from '../../assets/Naoelixo.png'
+import naoelixoImg from '../../assets/naoelixo.png'
 import 
 fashionRImg from '../../assets/fashionR.jpeg'
 import styles from './sobre.module.css'
