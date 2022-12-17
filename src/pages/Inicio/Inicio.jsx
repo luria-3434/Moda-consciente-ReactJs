@@ -2,7 +2,7 @@ import styles from '../Inicio/inicio.module.css'
 import inicioImg from '../../assets/desfileflavia.png'
 import patagoniaImg from '../../assets/Patagonia-Logo.png'
 import allbirdsImg from '../../assets/Allbirds.png'
-import nayaImg from '../../assets/Capturar naya v.png'
+import nayaImg from '../../assets/Capturar-naya-v.png'
 import isaacImg from '../../assets/7d8feb_65ed80d49f264bff8da56b2eadaab6d9_mv2.png'
 
 function Inicio() {

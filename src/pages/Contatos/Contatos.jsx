@@ -1,5 +1,6 @@
-import { database} from "../../servicos/firebase"
-import { ref, set, push} from "firebase/database"
+// import { database} from "../../servicos/firebase"
+// import { ref, set, push} from "firebase/database"
+
 
 import { useState } from 'react'
 import telefoneImg from '../../assets/gif.gif'
