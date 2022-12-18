@@ -1,91 +1,36 @@
 .header {
     text-align: center;
-    color: #fff;
-    background: #b6b2af;
-    width: 100% ;
-    margin-bottom: 2rem;
+    color: rgb(99, 100, 107);
+    background:  #b6b2af;  
   }
   
   .header h1 {
     padding-top: 4rem;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   .header img {
     margin: 2rem;
-    width: 20vw;
-    height: 30vh;
+    width: 50%;
+    height: 100%;
   }
   
-  .list {
-    background-color: #fff;
-    border-radius: 1rem;
-    padding: 70px 60px;
-    margin: 0 auto;
-  }
-  
-  .inputContainer {
-    width: 100%; 
+  .subtitulo {
+    padding: 1rem;
+    font-size: 1.5rem;
+    height: 500px;
+    color: #61635a;
+    text-align: center;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    background: #EDE9E0;
   }
   
-  .input {
-    background: #fff;
-    border: 0.5 solid #86837d;
-    padding: 12px 24px;
-    border-radius: 8px;
-    height: 100px;
-    width: 70%; 
-  }
-  
-  .addContainer {
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .addTask {
-    background:#777674;
-    width: 300px;
-    border-radius: 8px;
-    border: 0;
-    color: #fff;
-    padding: 14px;
-  }
-  
-  .removeTask {
-    background:rgb(90, 86, 86);
-    margin: 2rem;
-    border-radius: 8px;
-    border: 0;
-    padding: 14px;
-    color: #fff;
-  }
-  
-  .listItems {
-    list-style: none;
-    width: 100%;
-    padding: 2rem;
-  }
-  
-  .listItems > li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    border-bottom: 0.7px solid #7e7d7d;
+  .subtitulo p {
     width: 60%;
   }
-    
   
-  .listItems li div p {
-    font-size: 1.3em;
-    color: #111;
-  }
-
   .beneficios {
     width: 100%;
   }
@@ -162,4 +107,47 @@
     justify-content:center;
     width: 15rem;
     text-align: center;
+  }
+  
+  @media(max-width: 765px) {
+    .content {
+      flex-direction: column;
+    }
+    
+    .subtitulo {
+      height: 200px;
+      padding: 1rem;
+      font-size: 0.5rem;
+    }
+
+    .subtitulo p {
+      width: 60%;
+    }
+    
+    
+    .cards {
+      flex-direction: column;
+    }
+  
+    .card {
+      flex-direction: column;
+    }
+  
+    .subtituloCard {
+      text-align: center;
+    }
+  
+    .header img {
+      margin: 2rem;
+      width: 60%;
+      height: 60%;
+    }
+
+    .tituloCards {
+      font-size: 2rem;
+    }
+    .header h1 {
+      padding-top: 3rem;
+      font-size: 2rem;
+    }
   }

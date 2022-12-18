@@ -56,17 +56,6 @@
     padding: 2rem;
   }
 
-  /*.itemLista {
-    font-size: 1rem;
-    color: #79786ee1;
-    font-weight: ExtraLight 150;
-    text-decoration: none;
-    padding-top: 20rem;
-    margin: 2rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }*/
   
   @media(max-width: 765px) {
     .subtitulo {

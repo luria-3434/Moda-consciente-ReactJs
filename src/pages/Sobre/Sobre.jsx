@@ -10,13 +10,12 @@ function Sobre() {
         <h1>
           Precisamos Repensar o Consumo
         </h1>
-        <img src={naoelixoImg} />
+        <img src={naoelixoImg} alt="Imagem de uma performance que é montanha de roupas com um escrito: ROUPAS NÃO SÃO OU NÃO DEVERIAM SER DESCARTÁVEIS"/>
       </div>
       <div className={styles.subtitulo}>
-      <a className={styles.itemLista} href="https://www.fashionrevolution.org/about/" target="-blank"> <img src={fashionRImg}/></a>
-
-        <p>        Somos um movimento global que trabalha para que a moda conserve e restaure o meio ambiente, valorizando as pessoas acima do
-         crescimento e do lucro. Existimos para que a moda seja limpa, segura, justa, transparente, diversa e responsável para todos
+      <a className={styles.itemLista} href="https://www.fashionrevolution.org/about/" target="-blank"> <img src={fashionRImg} alt="Banner do movimento fashion revolution"/></a>
+        <p>        É um movimento global que trabalha para que a moda conserve e restaure o meio ambiente, valorizando as pessoas acima do
+         crescimento e do lucro. Existe para que a moda seja limpa, segura, justa, transparente, diversa e responsável para todos
           e todas.</p>
       </div>
       <div className={styles.containerSobre}>

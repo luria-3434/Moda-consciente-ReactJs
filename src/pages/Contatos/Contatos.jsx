@@ -1,5 +1,6 @@
-import { database} from "../../servicos/firebase"
-import { ref, set, push} from "firebase/database"
+// import { database} from "../../servicos/firebase"
+// import { ref, set, push} from "firebase/database"
+
 
 import { useState } from 'react'
 import telefoneImg from '../../assets/gif.gif'
@@ -41,9 +42,9 @@ function Contatos() {
     <>
       <div className={styles.header}>
         <h1>
-          Entre Em Contato
+         Vem Falar Com a Gente
         </h1>
-        <img src={telefoneImg} />
+        <img src={telefoneImg} alt="Git de moça atendendo o telefone" />
       </div>
       <div className={styles.formContainer}>
         <form onSubmit={handleCreateMensagem} className={styles.form}>

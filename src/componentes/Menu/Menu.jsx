@@ -18,15 +18,20 @@ function Menu() {
         <li className={open ? styles.itemOpen : styles.item}>
           <Link className={open ? styles.linkOpen : styles.link} to="/">Inicio</Link>
         </li>
+
+        <li className={open ? styles.itemOpen : styles.item}>
+          <Link className={open ? styles.linkOpen : styles.link} to="/loja">Loja</Link>
+        </li>
+
         <li className={open ? styles.itemOpen : styles.item}>
           <Link  className={open ? styles.linkOpen : styles.link} to="/sobre">Sobre</Link>
         </li>
         <li className={open ? styles.itemOpen : styles.item}>
-          <Link className={open ? styles.linkOpen : styles.link} to="/comentarios">Comentários</Link>
+          <Link className={open ? styles.linkOpen : styles.link} to="/comentarios">Dicas</Link>
         </li>
         <li className={open ? styles.itemOpen : styles.item}>
             
-          <Link className={open ? styles.linkOpen : styles.link} to="/contatos">Contatos</Link>
+          <Link className={open ? styles.linkOpen : styles.link} to="/contatos">Contato</Link>
         </li>
       </ul>
     </nav>

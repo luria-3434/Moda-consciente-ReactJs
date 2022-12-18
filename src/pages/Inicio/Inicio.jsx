@@ -2,7 +2,7 @@ import styles from '../Inicio/inicio.module.css'
 import inicioImg from '../../assets/desfileflavia.png'
 import patagoniaImg from '../../assets/Patagonia-Logo.png'
 import allbirdsImg from '../../assets/Allbirds.png'
-import nayaImg from '../../assets/Capturar naya v.png'
+import nayaImg from '../../assets/capturarnayav.png'
 import isaacImg from '../../assets/7d8feb_65ed80d49f264bff8da56b2eadaab6d9_mv2.png'
 
 function Inicio() {
@@ -12,7 +12,7 @@ function Inicio() {
         <h1>
           Por Uma Moda Mais Consciente
         </h1>
-        <img src={inicioImg} />
+        <img src={inicioImg} alt="Fotografias de modelos em desfile de moda" />
       </div>
       <div className={styles.subtitulo}>
         <p>
@@ -33,7 +33,7 @@ function Inicio() {
         <h2 className={styles.tituloCards}>Marcas Brasileiras com Propósito</h2>
         <div className={styles.cards}>
           <div className={styles.card}>
-                    <a className={styles.itemLista} href="https://www.isaacsilva.com.br/" target="-blank"><img className={styles.imagemCard} src={isaacImg}/></a>
+                    <a className={styles.itemLista} href="https://www.isaacsilva.com.br/" target="-blank"><img className={styles.imagemCard} src={isaacImg} alt="Logo da marca que é uma figa em preto e branco seguida do nome da marca Isaac Silva"/></a>
             <div className={styles.textos}>
               <h3 className={styles.subtituloCard}>Sobre a Marca </h3>
               <p className={styles.texto}>
@@ -44,7 +44,7 @@ function Inicio() {
             </div>
           </div>
           <div className={styles.card}>
-          <a className={styles.itemLista} href="https://nayavioleta.com.br/" target="-blank"><img className={styles.imagemCard} src={nayaImg} /></a>
+          <a className={styles.itemLista} href="https://nayavioleta.com.br/" target="-blank"><img className={styles.imagemCard} src={nayaImg} alt="Logo da marca que é o nome da marca naya violeta"/></a>
             <div className={styles.textos}>
               <h3 className={styles.subtituloCard}>Sobre a Marca</h3>
               <p className={styles.texto}>Criada em 2007, a marca leva o nome artístico de sua criadora, a designer Naya Violeta, 
@@ -61,7 +61,7 @@ function Inicio() {
         <h2 className={styles.tituloCards}>Marcas de Fora com Propósito </h2>
         <div className={styles.cards}>
           <div className={styles.card}>
-          <a className={styles.itemLista} href="https://www.patagonia.com/home/" target="-blank"><img className={styles.imagemCard} src={patagoniaImg}/></a>
+          <a className={styles.itemLista} href="https://www.patagonia.com/home/" target="-blank"><img className={styles.imagemCard} src={patagoniaImg} alt="Logo da marca que é o nome da marca Patagonia"/></a>
             <div className={styles.textos}>
               <h3 className={styles.subtituloCard}>Sobre a Marca</h3>
               <p className={styles.texto}>Começamos com nossos produtos, utilizando materiais que causavam menos danos ao meio 
@@ -71,7 +71,7 @@ function Inicio() {
             </div>
           </div>
           <div className={styles.card}>
-          <a className={styles.itemLista} href="https://www.allbirds.com/" target="-blank"><img className={styles.imagemCard} src={allbirdsImg} /></a>
+          <a className={styles.itemLista} href="https://www.allbirds.com/" target="-blank"><img className={styles.imagemCard} src={allbirdsImg} alt="Logo da marca que é o nome da marca Allbirds" /></a>
             <div className={styles.textos}>
               <h3 className={styles.subtituloCard}>Sobre a Marca</h3>
               <p className={styles.texto}>Ao oferecer uma gama de produtos cuidadosamente selecionada para todas as estações, 

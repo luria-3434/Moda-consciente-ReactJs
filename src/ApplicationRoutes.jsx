@@ -12,6 +12,7 @@ import Inicio from './pages/Inicio/Inicio'
 import Sobre from './pages/Sobre/Sobre'
 import Comentarios from './pages/Comentarios/Comentarios'
 import Contatos from './pages/Contatos/Contatos'
+import Loja from './pages/Loja/Loja'
 
 
 function ApplicationRoutes() {
@@ -20,6 +21,7 @@ function ApplicationRoutes() {
       <Menu/>
       <Routes>
         <Route path="/" element={<Inicio />}/>
+        <Route path="/loja" element={<Loja />}/>
         <Route path="/sobre" element={<Sobre/>} />
         <Route path="/comentarios" element={<Comentarios/>}/>
         <Route path="/contatos" element={<Contatos/>}/>
