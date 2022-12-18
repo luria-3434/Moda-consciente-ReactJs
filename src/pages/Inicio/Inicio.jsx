@@ -1,7 +1,7 @@
 import styles from '../Inicio/inicio.module.css'
 import inicioImg from '../../assets/desfile.png'
 import patagoniaImg from '../../assets/Patagonia-Logo.png'
-import allbirdsImg from '../../assets/Allbirds.png'
+import allbirdsImg from '../../assets/allbirds.png'
 import nayaImg from '../../assets/capturarnayav.png'
 import isaacImg from '../../assets/7d8feb_65ed80d49f264bff8da56b2eadaab6d9_mv2.png'
 
